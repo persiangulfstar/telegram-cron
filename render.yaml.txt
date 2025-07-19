@@ -1,0 +1,5 @@
+services:
+  - type: cron
+    name: telegram-cron
+    schedule: "@hourly"
+    dockerfilePath: ./Dockerfile
